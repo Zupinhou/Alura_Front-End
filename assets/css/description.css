@@ -1,0 +1,43 @@
+.secundario {
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    height: 100vh;
+}
+
+.container__description {
+    text-align: left;
+    margin: 0 6rem;
+}
+
+.container__description h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.container__description p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.image__description {
+    margin-left: auto;
+}
+
+.image__description2 {
+    margin-right: auto;
+}
+
+.container__button3 {
+    display: inline-block;
+    background-color: var(--button-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0rem 0rem 0rem;
+}
