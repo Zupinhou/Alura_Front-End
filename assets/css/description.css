@@ -41,3 +41,28 @@
     padding: 1rem;
     margin: 1rem 0rem 0rem 0rem;
 }
+
+.terciario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.terciario h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+.gadgets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.gadgets p {
+    font-size: 32px;
+    font-weight: 700;
+}
